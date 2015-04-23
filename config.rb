@@ -75,6 +75,10 @@ set :images_dir, 'images'
 
 # Build-specific configuration
 configure :build do
+
+  # Disable HTML Minify via Slim
+  # Slim::Engine.default_options[:pretty] = true
+
   # For example, change the Compass output style for deployment
   activate :minify_css
 
