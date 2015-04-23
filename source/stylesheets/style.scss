@@ -1,3 +1,9 @@
 @charset "utf-8";
 
+@import "partials/variables";
+
 @import "bootstrap/normalize";
+
+@import "partials/layout";
+@import "partials/type";
+@import "partials/forms";
