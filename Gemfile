@@ -7,6 +7,7 @@ gem "middleman"
 gem "slim"
 gem "autoprefixer-rails"
 gem "bootstrap-sass"
+gem "font-awesome-rails"
 gem "middleman-imageoptim"
 
 # Live-reloading plugin
